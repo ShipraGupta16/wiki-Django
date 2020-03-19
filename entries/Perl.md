@@ -1,0 +1,1 @@
+Perl is a family of two high-level, general-purpose, interpreted, dynamic programming languages. The Perl Programming Language at Perl.org. Links and other helpful resources for new and experienced Perl programmers.

@@ -1,0 +1,16 @@
+{% extends "encyclopedia/layout.html" %}
+{% load markdownify %}
+
+{% block title %}
+    Wiki -{{name}}
+{% endblock %}
+
+{% block body %}
+    <h1>Current Page {{ name }}</h1>
+
+     {{entry |markdownify}}
+
+     <button>
+     <a href="{{name}}/edit" class="btn btn-default">Edit</a>
+    </button>
+{% endblock %}
